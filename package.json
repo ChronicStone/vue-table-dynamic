@@ -1,6 +1,6 @@
 {
   "name": "vue-table-dynamic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A vue component of dynamic table",
   "main": "dist/index.min.js",
   "scripts": {
@@ -68,10 +68,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheoXiong/vue-table-dynamic.git"
+    "url": "git+https://github.com/ChronicStone/vue-table-dynamic"
   },
   "bugs": {
-    "url": "https://github.com/TheoXiong/vue-table-dynamic/issues"
+    "url": "https://github.com/ChronicStone/vue-table-dynamic/issues"
   },
-  "homepage": "https://github.com/TheoXiong/vue-table-dynamic#readme"
+  "homepage": "https://github.com/ChronicStone/vue-table-dynamic#readme"
 }
