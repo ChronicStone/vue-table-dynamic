@@ -6,7 +6,7 @@
       @click="showPageSizeOptions = !showPageSizeOptions"
       ref="pSize"
     >
-      <span class="size-text">{{ size }}/page</span>
+      <span class="size-text">{{ size }} by page</span>
       <span class="size-icon">
         <i class="iconfont icondown"></i>
       </span>
@@ -18,7 +18,7 @@
             class="size-item flex-c"
             @click.stop="onSelect(index)"
           >
-            {{ item }}/page
+            {{ item }} by page
           </div>
         </div>
       </transition>
