@@ -124,7 +124,13 @@
                     @blur="onCellBlur(tableCell, tableRow.index, j)"
                     @keydown.enter.stop.prevent="onCellKeyEnter"
                   >
-                    {{ tableCell.data }}
+                    <div v-if="typeOf tableCell.data === 'boolean'">
+                      <button>test</button>
+                    </div>
+                    
+                    <div v-else>
+                      {{ tableCell.data }}
+                    </div>
                   </span>
                 </div>
               </div>
